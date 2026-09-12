@@ -118,7 +118,7 @@
       gl.shaderSource(shader, text);
       gl.compileShader(shader);
       if (!gl.getShaderParameter(shader, gl.COMPILE_STATUS)) {
-        console.error('ParticleReveal shader error:', gl.getShaderInfoLog(shader));
+        console.error('Particle Reveal shader error:', gl.getShaderInfoLog(shader));
       }
       return shader;
     }
